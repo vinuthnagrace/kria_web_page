@@ -1,0 +1,123 @@
+.header .container .nav-link {
+  color: #000;
+}
+
+.middle-content {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.middle-content .container h1 {
+  letter-spacing: 6px;
+  font-size: 65px;
+  font-weight: 100;
+  color: #000000;
+}
+
+.footer {
+  background: #d0d6e4 url("http://wahabali.com/work/architecture/images/divider-dark.png") repeat-x;
+}
+
+.footer .container .footer-details .row {
+  margin-left: -15px;
+  margin-right: -1spx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .container .footer-details .row .footer-sec {
+  text-align: center;
+  margin: 150px 0 0 0;
+  display: block;
+  color: #000000;
+}
+
+.footer .container .footer-details .row .footer-sec h3 {
+  padding: 0 0 28px 0;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer .container .footer-details .row .footer-sec span {
+  font-weight: 100;
+  margin: 40px 0 0 0;
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.footer .container .footer-details .row .footer-sec .social-icons {
+  margin: 30px 0 0 0;
+  display: inline-block;
+}
+
+.footer .container .footer-details .row .footer-sec .social-icons a {
+  color: #fff;
+  border: solid 1px #262626;
+  border-radius: 30px;
+  width: 90px;
+  height: 60px;
+  display: inline-block;
+  font-size: 26px;
+  line-height: 60px;
+  margin: 0 3px;
+}
+
+.footer .footer-bottom {
+  background: url("http://wahabali.com/work/architecture/images/building-white.png") no-repeat center;
+  width: 100%;
+  height: 302px;
+  margin: 45px 0 0 0;
+}
+
+.footer .footer-bottom .copyrights {
+  background: #fff;
+  position: absolute;
+  margin: 290px 0 0px 0;
+  width: 100%;
+  padding: 0 0 15px0;
+}
+
+.footer .footer-bottom .copyrights .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer .footer-bottom .copyrights .container p {
+  font-family: 'Roboto Slab', serif;
+  color: #8d8d8d;
+  float: left;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.footer .footer-bottom .copyrights .container span {
+  color: #565656;
+  font-size: 16px;
+}
+
+.footer .footer-bottom .copyrights .container span a {
+  text-decoration: none;
+  color: #e7a920;
+}
+
+.footer .footer-bottom .copyrights .container span a:hover {
+  color: #000000;
+}
+/*# sourceMappingURL=styles.css.map */
