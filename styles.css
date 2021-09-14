@@ -4,10 +4,13 @@
 
 .kria vedio {
   position: relative;
-  z-index: 0;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .kria .container .overlay {
+  height: 99%;
   margin-left: 50px;
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
@@ -18,13 +21,14 @@
   z-index: 1;
 }
 
-.kria .container .overlay .image img {
-  width: 350px;
-  height: 350px;
+.kria .container .overlay .image {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.kria .container .overlay .heading {
-  padding-left: 45px;
+.kria .container .overlay .image img {
+  width: 250px;
+  height: 100px;
 }
 
 .kria .container .overlay .heading .title {
@@ -40,8 +44,7 @@
 }
 
 .kria .container .overlay .contact {
-  padding-top: 77px;
-  padding-left: 45px;
+  padding-top: 30px;
 }
 
 .kria .container .overlay .contact h3 {
